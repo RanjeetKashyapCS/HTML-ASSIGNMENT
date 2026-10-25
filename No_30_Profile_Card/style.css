@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    color: #222;
+    background: #f4f6f8;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 24px;
+    border-radius: 10px;
+}
+h1, h2 {
+    color: #174a7e;
+}
+a {
+    color: #0759a5;
+}
+button, input, select, textarea {
+    font: inherit;
+}
+.card {
+    background: white;
+    padding: 18px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.profile { max-width: 320px; margin: auto; padding: 24px; text-align: center; background: white; border-radius: 18px; box-shadow: 0 4px 12px #0002; } .profile img { border-radius: 50%; }

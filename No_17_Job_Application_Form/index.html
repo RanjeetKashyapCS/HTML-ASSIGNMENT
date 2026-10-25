@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No. 17 - Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="container">
+<h1>No. 17 — Job Application Form</h1>
+<form>
+<label>Full name: <input type="text" name="fullname" required></label><br><br>
+<label>Email: <input type="email" name="email" required></label><br><br>
+<label>Phone: <input type="tel" name="phone"></label><br><br>
+<label>Website/Portfolio: <input type="url" name="website"></label><br><br>
+<label>Date available: <input type="date" name="available"></label><br><br>
+<label>Years of experience: <input type="number" name="experience" min="0" max="50"></label><br><br>
+<label>Preferred colour (practice): <input type="color" name="colour"></label><br><br>
+<label>Comfort level: <input type="range" name="level" min="1" max="10"></label><br><br>
+<label>Upload resume: <input type="file" name="resume"></label><br><br>
+<label>Position: <select name="position"><option>Intern</option><option>Web Developer</option><option>Designer</option></select></label><br><br>
+<label>Message:<br><textarea name="message" rows="4"></textarea></label><br><br>
+<label><input type="checkbox" name="agree" required> Details are correct</label><br><br>
+<button type="submit">Apply</button><button type="reset">Clear</button>
+</form>
+</main>
+</body>
+</html>

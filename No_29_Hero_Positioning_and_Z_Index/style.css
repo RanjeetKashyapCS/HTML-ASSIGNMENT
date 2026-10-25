@@ -1,0 +1,8 @@
+* { box-sizing: border-box; } body { margin: 0; font-family: Arial, sans-serif; color: #17324d; }
+.hero { position: relative; overflow: hidden; min-height: 420px; display: flex; align-items: center; padding: 50px; background: #e8f2ff; }
+.hero-content { position: relative; z-index: 2; max-width: 550px; }
+.hero h1 { font-size: 44px; margin: 10px 0; }
+.circle { position: absolute; z-index: 1; width: 300px; height: 300px; border-radius: 50%; background: #b6d5ff; right: 8%; top: 60px; }
+.button { display: inline-block; background: #174a7e; color: white; padding: 10px 18px; border-radius: 5px; text-decoration: none; }
+.container { padding: 30px; }
+@media (max-width: 600px) { .hero { padding: 25px; } .hero h1 { font-size: 32px; } .circle { right: -150px; } }
